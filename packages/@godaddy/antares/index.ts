@@ -79,3 +79,5 @@ export {
 } from '#components/segmented-controller';
 
 export { MetricsLockup, type MetricsLockupProps } from '#components/metrics-lockup';
+
+export { ProgressBar, type ProgressBarProps } from '#components/progress-bar';
