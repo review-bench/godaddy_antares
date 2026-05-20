@@ -7,7 +7,7 @@ import { SizesExample } from './examples/sizes.tsx';
 import { ProgressBar } from './src/index.tsx';
 
 export default getMeta({
-  title: 'Components/ProgressBar'
+  title: 'components/ProgressBar'
 });
 
 export const Props = getComponentDocs(ProgressBar);

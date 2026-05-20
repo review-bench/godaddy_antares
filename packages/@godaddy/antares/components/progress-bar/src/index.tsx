@@ -1,5 +1,5 @@
 import type { CSSProperties, ReactNode } from 'react';
-import { forwardRef } from 'react';
+import { forwardRef, useId } from 'react';
 import { cx } from 'cva';
 import {
   ProgressBar as RACProgressBar,
@@ -38,7 +38,17 @@ export interface ProgressBarProps extends Omit<RACProgressBarProps, 'className' 
  * ```
  */
 export const ProgressBar = forwardRef<HTMLDivElement, ProgressBarProps>(function ProgressBar(props, ref) {
-  const { size = 'md', status = 'default', className, label, helperText, ...rest } = props;
+  const {
+    size = 'md',
+    status = 'default',
+    className,
+    label,
+    helperText,
+    'aria-describedby': describedByProp,
+    ...rest
+  } = props;
+  const helperTextId = useId();
+  const describedBy = helperText ? [describedByProp, helperTextId].filter(Boolean).join(' ') : describedByProp;
 
   return (
     <Flex
@@ -49,6 +59,7 @@ export const ProgressBar = forwardRef<HTMLDivElement, ProgressBarProps>(function
       className={cx(styles.progressBar, className)}
       data-size={size}
       data-status={status}
+      aria-describedby={describedBy}
       as={RACProgressBar}
     >
       {({ percentage, valueText }) => (
@@ -60,7 +71,11 @@ export const ProgressBar = forwardRef<HTMLDivElement, ProgressBarProps>(function
             </Flex>
           ) : null}
           <div className={styles.track} style={{ '--progress-bar-progress': `${percentage ?? 0}%` } as CSSProperties} />
-          {helperText ? <Text className={styles.helperText}>{helperText}</Text> : null}
+          {helperText ? (
+            <Text id={helperTextId} className={styles.helperText}>
+              {helperText}
+            </Text>
+          ) : null}
         </>
       )}
     </Flex>

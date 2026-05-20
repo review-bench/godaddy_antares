@@ -10,8 +10,6 @@
   --progress-bar-content-gap: var(--ux-1sbfig8, 8px);
   --progress-bar-track-height: 24px;
 
-  width: 100%;
-
   &:where([data-size="xs"]) {
     --progress-bar-track-height: 6px;
   }
@@ -31,13 +29,6 @@
   &:where([data-status="critical"]) {
     --progress-bar-fill-bg: var(--ux-1fhc073, #db1802);
   }
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  width: 100%;
 }
 
 .label {
