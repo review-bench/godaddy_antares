@@ -1,6 +1,6 @@
 {
   "name": "@bento/use-props",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Context aware props transformation for Bento",
   "type": "module",
   "main": "./dist/index.cjs",

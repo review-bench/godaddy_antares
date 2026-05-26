@@ -1,5 +1,16 @@
 # @godaddy/antares
 
+## 0.2.0
+
+### Minor Changes
+
+- feat(antares): add drawer, inline-drawer, also dep fixes for react-aria and react-aria-compoennts ([#186](https://github.com/godaddy/bento/pull/186) by @rmarkins-godaddy)
+- feat: modal component ([#145](https://github.com/godaddy/bento/pull/145) by @egaitan-godaddy)
+
+### Patch Changes
+
+- chore: using design tokens in radio, checkbox, text-field and number-field components ([#178](https://github.com/godaddy/bento/pull/178) by @egaitan-godaddy)
+
 ## 0.1.1
 
 ### Patch Changes
