@@ -30,7 +30,7 @@
     "@changesets/cli": "^2.29.8",
     "@changesets/get-github-info": "^0.7.0",
     "@commitlint/cli": "^20.3.0",
-    "@commitlint/config-conventional": "^20.3.0",
+    "@commitlint/config-conventional": "^21.0.1",
     "@nx/storybook": "^22.4.5",
     "@nx/vite": "^22.4.5",
     "@nx/vitest": "^22.4.5",
