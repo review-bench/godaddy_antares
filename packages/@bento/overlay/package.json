@@ -45,8 +45,8 @@
     "@bento/error": "^0.1.1",
     "@bento/slots": "^0.3.0",
     "@bento/use-props": "^0.2.1",
-    "@react-aria/overlays": "^3.25.3",
-    "@react-stately/overlays": "^3.6.20"
+    "@react-aria/overlays": "^3.32.0",
+    "@react-stately/overlays": "^3.7.0"
   },
   "devDependencies": {
     "@bento/button": "*",
@@ -56,7 +56,7 @@
     "@bento/portal": "*",
     "@bento/scroll-lock": "*",
     "@bento/text": "*",
-    "@types/react": "^19.2.14",
+    "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",

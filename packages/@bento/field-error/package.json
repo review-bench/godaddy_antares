@@ -43,7 +43,7 @@
     "@bento/use-props": "^0.2.1"
   },
   "devDependencies": {
-    "@types/react": "^19.2.14",
+    "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "@react-types/shared": "^3.32.1",
     "tsup": "^8.5.1",
