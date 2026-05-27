@@ -32,7 +32,7 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "assume": "^2.3.0",
-    "mdast": "^2.3.2",
+    "mdast": "^3.0.0",
     "mdast-util-mdx-jsx": "^3.2.0",
     "mdast-util-mdxjs-esm": "^2.0.1",
     "postcss": "^8.5.6",
