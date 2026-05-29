@@ -41,11 +41,11 @@
     "@bento/text": "^0.1.4",
     "@bento/use-data-attributes": "^0.1.1",
     "@bento/use-props": "^0.2.1",
-    "@react-aria/utils": "^3.34.0",
-    "react-aria": "^3.45.0"
+    "@react-aria/utils": "^3.34.1",
+    "react-aria": "^3.49.0"
   },
   "devDependencies": {
-    "@types/react": "^19.2.14",
+    "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",

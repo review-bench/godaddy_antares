@@ -44,10 +44,10 @@
     "@bento/slots": "^0.3.0",
     "@bento/use-data-attributes": "^0.1.1",
     "@bento/use-props": "^0.2.2",
-    "@react-aria/overlays": "^3.25.3"
+    "@react-aria/overlays": "^3.32.1"
   },
   "devDependencies": {
-    "@types/react": "^19.2.14",
+    "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
